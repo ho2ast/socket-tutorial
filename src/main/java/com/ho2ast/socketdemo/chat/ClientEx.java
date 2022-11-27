@@ -20,7 +20,7 @@ public class ClientEx {
             out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 
             while (true) {
-                System.out.print("보내기 >>");
+                System.out.print("보내기 >> ");
                 String outMsg = sc.nextLine();
 
                 if (outMsg.equals("bye")) {
